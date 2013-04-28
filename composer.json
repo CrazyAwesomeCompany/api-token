@@ -1,0 +1,29 @@
+{
+    "name": "cac/api-token",
+    "description": "API Token creator and validator",
+    "type": "library",
+    "keywords": ["api", "token", "security"],
+    "homepage": "http://www.crazyawesomecompany.com/",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Nick de Groot",
+            "email": "nick@crazyawesomecompany.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/CrazyAwesomeCompany/api-token/issues"
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "ext-mcrypt": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "CAC\\Component\\Token": "lib/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=3.7"
+    }
+}
